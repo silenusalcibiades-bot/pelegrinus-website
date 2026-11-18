@@ -13,7 +13,7 @@ export default function TermsPage() {
         <p><em>Van toepassing op Read Latin from the Sources – januari/februari 2027</em></p>
 
         <h2>1. Aanbieder</h2>
-        <p>De cursus wordt aangeboden door David Kromhout, handelend onder de naam Pelegrinus, een eenmanszaak in Nederland (KVK 88897230). Contact: <a href="mailto:silenusalcibiades@gmail.com">silenusalcibiades@gmail.com</a>.</p>
+        <p>De cursus wordt aangeboden door David Kromhout, handelend onder de naam Pelegrinus, een eenmanszaak in Nederland. Bezoekadres: Tichelkuilen 218, 7206 BN Zutphen. KVK-nummer: 88897230. Btw-id: NL175749061B01. Contact: <a href="mailto:silenusalcibiades@gmail.com">silenusalcibiades@gmail.com</a>.</p>
 
         <h2>2. Aanbod en cursusopzet</h2>
         <p>Read Latin from the Sources is een online beginnerscursus Latijn, gegeven in het Nederlands. De cursus bestaat uit zes live lessen van elk 90 minuten via Zoom, op woensdag 13, 20 en 27 januari en 10, 17 en 24 februari 2027, telkens van 19.30 tot 21.00 uur (Nederlandse tijd). Er is geen les op 3 februari 2027. Naast de lessen is er ongeveer 30 minuten zelfstandige oefening per week voorzien.</p>
