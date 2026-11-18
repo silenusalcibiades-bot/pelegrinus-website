@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Source_Serif_4, Inter } from "next/font/google";
+import Script from "next/script";
 
 const sourceSerif = Source_Serif_4({
   subsets: ["latin"],
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${sourceSerif.variable} ${inter.variable}`}>
         {children}
+        <Script id="crisp-chat" strategy="afterInteractive">{`window.$crisp = []; window.CRISP_WEBSITE_ID = "ccb5b4b7-9813-43db-ae84-4a35a35143b5"; (function () { var d = document; var s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();`}</Script>
       </body>
     </html>
   );

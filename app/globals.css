@@ -212,3 +212,82 @@ footer {
     flex-direction: column;
   }
 }
+
+/* Founding-cohort course offer */
+.course-offer {
+  margin: 64px 0 36px;
+  padding: 42px 0 48px;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  max-width: 780px;
+}
+
+.course-offer .eyebrow {
+  margin-bottom: 18px;
+}
+
+.course-offer h2 {
+  margin: 0 0 18px;
+  font-size: clamp(32px, 4vw, 44px);
+}
+
+.course-offer p:not(.eyebrow) {
+  color: #5e6059;
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.course-offer ul {
+  margin: 28px 0;
+  padding-left: 1.25em;
+  color: #5e6059;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.course-offer li {
+  padding-left: 5px;
+}
+
+.course-offer .button {
+  margin-top: 12px;
+}
+
+
+/* Legal information pages */
+.legal-content {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 80px 48px 110px;
+}
+.legal-content h1 {
+  font-size: clamp(42px, 5vw, 58px);
+  font-weight: 400;
+  line-height: 1.15;
+  margin: 22px 0 30px;
+}
+.legal-content h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 42px 0 12px;
+}
+.legal-content p, .legal-content li {
+  color: #55564f;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.legal-content ul {
+  padding-left: 1.3em;
+}
+.legal-content a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.legal-content a:hover {
+  color: var(--navy);
+}
+@media (max-width: 700px) {
+  .legal-content { padding: 55px 25px 75px; }
+  .legal-content h1 { font-size: 42px; }
+  .legal-content h2 { font-size: 23px; }
+}

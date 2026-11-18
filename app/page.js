@@ -76,8 +76,61 @@ export default function Home() {
           to develop genuine skills. The purpose is not merely to learn
           about Latin, but to learn Latin.
         </p>
-        <a href="mailto:info@pelegrinus.org" className="button">
-          Enquire about courses →
+
+        <div className="course-offer">
+          <p className="eyebrow">FOUNDING COHORT · JANUARY 2027</p>
+          <h2>Read Latin from the Sources</h2>
+          <p><strong>Een eerste kennismaking met het Latijn</strong></p>
+          <p>
+            Wil je Latijn leren lezen, maar heb je nooit de gelegenheid gehad
+            om ermee te beginnen? In deze online beginnerscursus maak je in
+            zes weken kennis met de taal aan de hand van authentieke Latijnse
+            teksten. Je leert de grammaticale en taalkundige basis die nodig
+            is om teksten zorgvuldig te begrijpen. Er is geen voorkennis
+            vereist.
+          </p>
+          <p>
+            De cursus bestaat uit zes live online lessen van 90 minuten.
+            Reken daarnaast op ongeveer 30 minuten zelfstandige oefening
+            per week.
+          </p>
+          <ul>
+            <li><strong>Data:</strong> woensdag 13, 20 en 27 januari; 10, 17 en 24 februari 2027</li>
+            <li><strong>Tijd:</strong> 19.30–21.00 uur (Nederlandse tijd)</li>
+            <li><strong>Locatie:</strong> online via Zoom</li>
+            <li><strong>Voertaal:</strong> Nederlands</li>
+            <li><strong>Niveau:</strong> beginners; geen voorkennis nodig</li>
+            <li><strong>Prijs:</strong> €225 voor de volledige cursus</li>
+            <li><strong>Groepsgrootte:</strong> minimaal 6, maximaal 8 deelnemers</li>
+          </ul>
+          <p>
+            Deze eerste editie is een founding cohort. Je neemt deel aan de
+            eerste uitvoering van de cursus; de ervaringen en feedback van
+            deelnemers helpen om toekomstige edities verder te ontwikkelen.
+          </p>
+          <p>
+            <strong>Dr David Kromhout</strong> is docent klassieke talen en
+            onderzoeker. Hij heeft een academische achtergrond in de
+            klassieke talen en de studie van oude teksten. In zijn onderwijs
+            staat het zorgvuldig lezen en begrijpen van oorspronkelijke
+            bronnen centraal.
+          </p>
+          <p>
+            Aanmelden kan per e-mail. Vermeld je naam en dat je je wilt
+            aanmelden voor Read Latin from the Sources. Ik neem persoonlijk
+            contact met je op om je inschrijving te bevestigen; daarna
+            ontvang je een factuur van €225, te betalen per bankoverschrijving.
+          </p>
+          <a
+            href="mailto:silenusalcibiades@gmail.com?subject=Aanmelding%20Read%20Latin%20from%20the%20Sources&body=Beste%20David%2C%0A%0AIk%20wil%20me%20graag%20aanmelden%20voor%20Read%20Latin%20from%20the%20Sources.%0A%0AMijn%20naam%3A%20"
+            className="button"
+          >
+            Aanmelden per e-mail →
+          </a>
+        </div>
+
+        <a href="mailto:silenusalcibiades@gmail.com" className="button">
+          Enquire about other courses →
         </a>
       </section>
 
@@ -110,7 +163,9 @@ export default function Home() {
       <footer id="contact">
         <span>PELEGRINUS</span>
         <span>Learn Latin. Complete your education.</span>
-        <a href="mailto:info@pelegrinus.org">Contact</a>
+        <a href="mailto:silenusalcibiades@gmail.com">Contact</a>
+        <a href="/privacy">Privacy</a>
+        <a href="/voorwaarden">Cursusvoorwaarden</a>
       </footer>
     </main>
   );
