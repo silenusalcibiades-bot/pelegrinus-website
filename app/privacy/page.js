@@ -61,7 +61,7 @@ export default function PrivacyPage() {
         <p>Deze privacyverklaring kan worden aangepast als de website, de dienstverlening of de wetgeving verandert. De meest recente versie staat op deze pagina.</p>
         <p><a href="/">← Terug naar Pelegrinus</a></p>
       </article>
-      <footer><span>PELEGRINUS</span><a href="/voorwaarden">Cursusvoorwaarden</a><a href="mailto:silenusalcibiades@gmail.com">Contact</a></footer>
+      <footer><span>PELEGRINUS</span><a href="/voorwaarden">Cursusvoorwaarden</a><a href="/herroeping">Herroepingsrecht</a><a href="mailto:silenusalcibiades@gmail.com">Contact</a></footer>
     </main>
   );
 }
