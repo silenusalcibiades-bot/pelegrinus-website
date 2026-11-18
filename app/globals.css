@@ -252,3 +252,42 @@ footer {
 .course-offer .button {
   margin-top: 12px;
 }
+
+
+/* Legal information pages */
+.legal-content {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 80px 48px 110px;
+}
+.legal-content h1 {
+  font-size: clamp(42px, 5vw, 58px);
+  font-weight: 400;
+  line-height: 1.15;
+  margin: 22px 0 30px;
+}
+.legal-content h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 42px 0 12px;
+}
+.legal-content p, .legal-content li {
+  color: #55564f;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.legal-content ul {
+  padding-left: 1.3em;
+}
+.legal-content a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.legal-content a:hover {
+  color: var(--navy);
+}
+@media (max-width: 700px) {
+  .legal-content { padding: 55px 25px 75px; }
+  .legal-content h1 { font-size: 42px; }
+  .legal-content h2 { font-size: 23px; }
+}
