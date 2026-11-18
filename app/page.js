@@ -166,6 +166,7 @@ export default function Home() {
         <a href="mailto:silenusalcibiades@gmail.com">Contact</a>
         <a href="/privacy">Privacy</a>
         <a href="/voorwaarden">Cursusvoorwaarden</a>
+        <a href="/herroeping">Herroepingsrecht</a>
       </footer>
     </main>
   );
