@@ -1,4 +1,3 @@
-
 import "./globals.css";
 import { Source_Serif_4, Inter } from "next/font/google";
 
@@ -13,9 +12,16 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Pelegrinus — Classical Learning",
+  title: "Pelegrinus | Learn Latin. Complete your education.",
   description:
-    "Classical languages, Jewish intellectual traditions and the humanities.",
+    "A classical education for curious adults. Learn Latin systematically and discover the literature, history and ideas of the classical world.",
+  openGraph: {
+    title: "Pelegrinus | Learn Latin. Complete your education.",
+    description:
+      "A classical education for curious adults. Learn Latin systematically and discover the literature, history and ideas of the classical world.",
+    siteName: "Pelegrinus",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
