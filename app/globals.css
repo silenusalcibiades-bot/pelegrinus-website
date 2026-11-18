@@ -212,3 +212,43 @@ footer {
     flex-direction: column;
   }
 }
+
+/* Founding-cohort course offer */
+.course-offer {
+  margin: 64px 0 36px;
+  padding: 42px 0 48px;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  max-width: 780px;
+}
+
+.course-offer .eyebrow {
+  margin-bottom: 18px;
+}
+
+.course-offer h2 {
+  margin: 0 0 18px;
+  font-size: clamp(32px, 4vw, 44px);
+}
+
+.course-offer p:not(.eyebrow) {
+  color: #5e6059;
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.course-offer ul {
+  margin: 28px 0;
+  padding-left: 1.25em;
+  color: #5e6059;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.course-offer li {
+  padding-left: 5px;
+}
+
+.course-offer .button {
+  margin-top: 12px;
+}
