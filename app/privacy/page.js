@@ -42,6 +42,7 @@ export default function PrivacyPage() {
 
         <h2>4. Met wie worden gegevens gedeeld?</h2>
         <p>Gegevens worden alleen gedeeld voor zover dat nodig is voor de hierboven genoemde doelen of om aan een wettelijke verplichting te voldoen. Voor e-mail en online lessen kunnen dienstverleners zoals Google (Gmail) en Zoom gegevens verwerken. Voor betalingen worden gegevens verwerkt via de bank. Deze partijen verwerken gegevens volgens hun eigen voorwaarden en privacyinformatie.</p>
+        <p>De website gebruikt daarnaast de chatdienst Crisp (Crisp IM SAS, Frankrijk). Als je de chat opent en gebruikt, kunnen je berichten, IP-adres en technische gegevens over je browser en apparaat door Crisp worden verwerkt om je vraag te kunnen beantwoorden. Crisp gebruikt functionele chatcookies om je chatsessie te bewaren. Meer informatie vind je in de <a href="https://crisp.chat/en/privacy/" target="_blank" rel="noreferrer">privacyverklaring van Crisp</a> en het <a href="https://crisp.chat/en/cookies/" target="_blank" rel="noreferrer">cookiebeleid van Crisp</a>.</p>
 
         <h2>5. Hoe lang bewaren we gegevens?</h2>
         <p>Berichten van mensen die alleen informatie vragen en zich niet inschrijven, worden niet langer bewaard dan nodig is om de vraag af te handelen en eventuele opvolging te verzorgen. Cursus- en contactgegevens worden bewaard zolang dat nodig is voor de cursus en de afhandeling daarvan. Facturen en de bijbehorende fiscale administratie worden zeven jaar bewaard, voor zover de wettelijke fiscale bewaarplicht geldt.</p>
@@ -54,7 +55,7 @@ export default function PrivacyPage() {
         <p>Stuur een verzoek naar <a href="mailto:silenusalcibiades@gmail.com">silenusalcibiades@gmail.com</a>. Om misbruik te voorkomen kan ik je vragen je identiteit voldoende aan te tonen.</p>
 
         <h2>8. Cookies en websitegebruik</h2>
-        <p>Deze website is bedoeld als informatieve website. Er worden voor zover bekend geen advertentie- of trackingcookies geplaatst. Ingesloten of externe diensten kunnen hun eigen technische cookies of vergelijkbare technieken gebruiken wanneer je die diensten bezoekt of gebruikt.</p>
+        <p>De website gebruikt geen advertentie- of trackingcookies. De Crisp-chatfunctie kan functionele cookies plaatsen om een chatsessie en berichten te onthouden. Deze cookies zijn bedoeld voor de werking van de chat en niet voor advertentietracking. Je kunt cookies beheren of verwijderen via de instellingen van je browser. De chatdienst wordt aangeboden door Crisp; zie het <a href="https://crisp.chat/en/cookies/" target="_blank" rel="noreferrer">cookiebeleid van Crisp</a> voor meer informatie.</p>
 
         <h2>9. Wijzigingen</h2>
         <p>Deze privacyverklaring kan worden aangepast als de website, de dienstverlening of de wetgeving verandert. De meest recente versie staat op deze pagina.</p>
