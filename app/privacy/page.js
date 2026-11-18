@@ -17,7 +17,9 @@ export default function PrivacyPage() {
         <p>Verwerkingsverantwoordelijke is David Kromhout, handelend onder de naam Pelegrinus, een eenmanszaak gevestigd in Nederland.</p>
         <ul>
           <li>E-mail: <a href="mailto:silenusalcibiades@gmail.com">silenusalcibiades@gmail.com</a></li>
+          <li>Bezoekadres: Tichelkuilen 218, 7206 BN Zutphen</li>
           <li>KVK-nummer: 88897230</li>
+          <li>Btw-id: NL175749061B01</li>
         </ul>
 
         <h2>2. Welke gegevens verwerken we?</h2>
