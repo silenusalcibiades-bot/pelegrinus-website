@@ -122,14 +122,14 @@ export default function Home() {
             ontvang je een factuur van €225, te betalen per bankoverschrijving.
           </p>
           <a
-            href="mailto:info@pelegrinus.org?subject=Aanmelding%20Read%20Latin%20from%20the%20Sources&body=Beste%20David%2C%0A%0AIk%20wil%20me%20graag%20aanmelden%20voor%20Read%20Latin%20from%20the%20Sources.%0A%0AMijn%20naam%3A%20"
+            href="mailto:silenusalcibiades@gmail.com?subject=Aanmelding%20Read%20Latin%20from%20the%20Sources&body=Beste%20David%2C%0A%0AIk%20wil%20me%20graag%20aanmelden%20voor%20Read%20Latin%20from%20the%20Sources.%0A%0AMijn%20naam%3A%20"
             className="button"
           >
             Aanmelden per e-mail →
           </a>
         </div>
 
-        <a href="mailto:info@pelegrinus.org" className="button">
+        <a href="mailto:silenusalcibiades@gmail.com" className="button">
           Enquire about other courses →
         </a>
       </section>
@@ -163,7 +163,7 @@ export default function Home() {
       <footer id="contact">
         <span>PELEGRINUS</span>
         <span>Learn Latin. Complete your education.</span>
-        <a href="mailto:info@pelegrinus.org">Contact</a>
+        <a href="mailto:silenusalcibiades@gmail.com">Contact</a>
       </footer>
     </main>
   );
