@@ -164,6 +164,8 @@ export default function Home() {
         <span>PELEGRINUS</span>
         <span>Learn Latin. Complete your education.</span>
         <a href="mailto:silenusalcibiades@gmail.com">Contact</a>
+        <a href="/privacy">Privacy</a>
+        <a href="/voorwaarden">Cursusvoorwaarden</a>
       </footer>
     </main>
   );
