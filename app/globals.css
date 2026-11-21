@@ -291,3 +291,16 @@ footer {
   .legal-content h1 { font-size: 42px; }
   .legal-content h2 { font-size: 23px; }
 }
+
+
+/* Bilingual navigation */
+.nav-right { display: flex; align-items: center; gap: 28px; }
+.language-switch { display: flex; align-items: center; gap: 9px; white-space: nowrap; font-family: var(--font-sans), sans-serif; font-size: 11px; letter-spacing: 0.08em; }
+.language-switch a { color: var(--muted); transition: color 0.2s; }
+.language-switch a:hover, .language-switch a.active { color: var(--navy); font-weight: 700; }
+.language-switch span { color: #b8b5ab; }
+@media (max-width: 700px) {
+  .navigation { flex-direction: row; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+  .nav-right { width: 100%; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
+  .nav-links { gap: 16px; }
+}

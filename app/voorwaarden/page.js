@@ -1,12 +1,11 @@
+import SiteNavigation from "../components/SiteNavigation";
+
 export const metadata = { title: "Cursusvoorwaarden | Pelegrinus" };
 
 export default function TermsPage() {
   return (
     <main className="legal-page">
-      <nav className="navigation">
-        <a href="/" className="logo">PELEGRINUS</a>
-        <div className="nav-links"><a href="/">Home</a><a href="/privacy">Privacy</a></div>
-      </nav>
+      <SiteNavigation language="nl" page="terms" />
       <article className="legal-content">
         <p className="eyebrow">PELEGRINUS · LATIN PILOT 2027</p>
         <h1>Cursusvoorwaarden</h1>

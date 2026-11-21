@@ -1,3 +1,5 @@
+import SiteNavigation from "../components/SiteNavigation";
+
 export const metadata = { title: "Herroepingsrecht | Pelegrinus" };
 
 export default function WithdrawalPage() {
@@ -5,10 +7,7 @@ export default function WithdrawalPage() {
 
   return (
     <main className="legal-page">
-      <nav className="navigation">
-        <a href="/" className="logo">PELEGRINUS</a>
-        <div className="nav-links"><a href="/">Home</a><a href="/voorwaarden">Cursusvoorwaarden</a></div>
-      </nav>
+      <SiteNavigation language="nl" page="withdrawal" />
       <article className="legal-content">
         <p className="eyebrow">PELEGRINUS · CONSUMENTENINFORMATIE</p>
         <h1>Herroepingsrecht</h1>
