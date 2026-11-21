@@ -1,12 +1,11 @@
+import SiteNavigation from "../components/SiteNavigation";
+
 export const metadata = { title: "Privacyverklaring | Pelegrinus" };
 
 export default function PrivacyPage() {
   return (
     <main className="legal-page">
-      <nav className="navigation">
-        <a href="/" className="logo">PELEGRINUS</a>
-        <div className="nav-links"><a href="/">Home</a><a href="/voorwaarden">Cursusvoorwaarden</a></div>
-      </nav>
+      <SiteNavigation language="nl" page="privacy" />
       <article className="legal-content">
         <p className="eyebrow">PELEGRINUS</p>
         <h1>Privacyverklaring</h1>
