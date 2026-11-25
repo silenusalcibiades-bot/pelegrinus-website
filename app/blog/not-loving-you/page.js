@@ -23,7 +23,7 @@ export default function MartialArticle() {
           <p className="blog-meta">By Dr David Kromhout · Martial, <em>Epigrams</em> 1.32</p>
         </header>
         <figure className="article-figure">
-          <img src="/images/martial-sabidius-pompeii.webp" alt="Comic-style scene in Pompeii: one Roman man dismissively turns away while another gestures at a wall bearing Martial's Latin epigram." />
+          <img src="/images/martial-sabidius-pompeii.jpg" alt="Comic-style scene in Pompeii: one Roman man dismissively turns away while another gestures at a wall bearing Martial's Latin epigram." />
           <figcaption>A Roman exchange worthy of a wall inscription — after Martial, <em>Epigrams</em> 1.32.</figcaption>
         </figure>
         <p>For three weeks we have read Latin from walls. This week we move from the wall to the book, but not far. Martial, a poet from Spain who lived in Rome around the year 100, wrote short, sharp poems that read like graffiti with better handwriting. Here is one of his most famous, and probably the shortest expression of dislike ever put into verse.</p>
