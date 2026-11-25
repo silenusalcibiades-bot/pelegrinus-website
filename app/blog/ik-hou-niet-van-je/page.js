@@ -26,7 +26,7 @@ export default function MartialArticleDutch() {
           <p className="blog-meta">Door Dr David Kromhout · Martialis, <em>Epigrammen</em> 1.32</p>
         </header>
         <figure className="article-figure">
-          <img src="/images/martial-sabidius-pompeii.webp" alt="Humoristische scène in Pompeii: een Romein wendt zich af terwijl een ander naar een Latijnse tekst op een muur wijst." />
+          <img src="/images/martial-sabidius-pompeii.jpg" alt="Humoristische scène in Pompeii: een Romein wendt zich af terwijl een ander naar een Latijnse tekst op een muur wijst." />
           <figcaption>Een Romeinse woordenwisseling die zo op een muur gekalkt had kunnen staan — naar Martialis, <em>Epigrammen</em> 1.32.</figcaption>
         </figure>
         <p>De afgelopen weken lazen we Latijnse teksten op muren. Deze week maken we de overstap van de muur naar het boek, maar niet ver. Martialis, een dichter uit Hispania die rond het jaar 100 in Rome leefde, schreef korte, puntige gedichten. Ze lezen als graffiti, maar dan met een verfijnd gevoel voor vorm. Hier volgt een van zijn bekendste epigrammen, misschien wel de kortste uitdrukking van afkeer die ooit op rijm is gezet.</p>
