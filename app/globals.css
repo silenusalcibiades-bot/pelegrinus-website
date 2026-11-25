@@ -304,3 +304,175 @@ footer {
   .nav-right { width: 100%; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
   .nav-links { gap: 16px; }
 }
+
+
+/* Blog archive and article pages */
+.page-heading {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 105px 48px 70px;
+}
+.page-heading h1 {
+  margin: 20px 0;
+  font-size: clamp(48px, 6vw, 72px);
+  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+.page-heading > p:not(.eyebrow) {
+  max-width: 680px;
+  color: #5e6059;
+  font-size: 18px;
+}
+.blog-list {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 48px 90px;
+}
+.blog-card {
+  padding: 34px 0 42px;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+.blog-card h2 {
+  max-width: 760px;
+  margin: 16px 0;
+  font-size: clamp(30px, 4vw, 42px);
+  font-weight: 400;
+  line-height: 1.2;
+}
+.blog-card h2 a:hover, .text-link:hover, .article a:hover {
+  color: var(--navy);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.blog-card p:not(.eyebrow) {
+  max-width: 720px;
+  color: #5e6059;
+  font-size: 17px;
+}
+.blog-meta {
+  color: var(--muted);
+  font-family: var(--font-sans), sans-serif;
+  font-size: 12px !important;
+  letter-spacing: 0.02em;
+}
+.text-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--navy);
+  font-family: var(--font-sans), sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+.newsletter-band {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 70px max(calc((100% - 900px) / 2), 48px);
+  background: #f1efe8;
+}
+.newsletter-band > div { max-width: 600px; }
+.newsletter-band h2 {
+  margin: 14px 0 16px;
+  font-size: clamp(30px, 4vw, 40px);
+  font-weight: 400;
+  line-height: 1.2;
+}
+.newsletter-band p:not(.eyebrow) {
+  color: #5e6059;
+  font-size: 16px;
+}
+.newsletter-band .button { white-space: nowrap; margin-top: 0; }
+.article {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 55px 36px 100px;
+}
+.article-header {
+  padding: 40px 0 30px;
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: 38px;
+}
+.article-header h1 {
+  margin: 20px 0;
+  font-size: clamp(42px, 6vw, 64px);
+  line-height: 1.08;
+  font-weight: 400;
+  letter-spacing: -0.035em;
+}
+.article-deck {
+  color: #5e6059;
+  font-size: 22px;
+}
+.article > p, .article > ul {
+  color: #454840;
+  font-size: 18px;
+  line-height: 1.85;
+}
+.article > ul { padding-left: 1.35em; }
+.article li { margin: 0 0 15px; }
+.article h2 {
+  margin: 54px 0 18px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+.latin-quotation, .translation-quotation {
+  margin: 28px 0;
+  padding: 24px 30px;
+  border-left: 3px solid var(--navy);
+  background: #f1efe8;
+}
+.latin-quotation p, .translation-quotation p {
+  margin: 0;
+  font-size: 21px;
+  line-height: 1.8;
+}
+.latin-quotation cite {
+  display: block;
+  margin-top: 12px;
+  color: var(--muted);
+  font-family: var(--font-sans), sans-serif;
+  font-size: 11px;
+  font-style: normal;
+}
+.article-cta {
+  margin: 65px 0 35px;
+  padding: 35px 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+.article-cta h2 { margin-top: 12px; }
+.article-cta p:not(.eyebrow) {
+  color: #5e6059;
+  font-size: 17px;
+}
+.article-subscribe, .article-back {
+  font-size: 15px !important;
+}
+.article-subscribe a, .article-back a {
+  color: var(--navy);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+@media (max-width: 700px) {
+  .page-heading { padding: 75px 25px 45px; }
+  .blog-list { padding: 0 25px 65px; }
+  .newsletter-band { padding: 55px 25px; flex-direction: column; align-items: flex-start; gap: 24px; }
+  .newsletter-band .button { white-space: normal; }
+  .article { padding: 35px 25px 75px; }
+  .article-header h1 { font-size: 42px; }
+  .article-deck { font-size: 19px; }
+  .article > p, .article > ul { font-size: 16px; }
+  .article h2 { font-size: 27px; }
+  .latin-quotation, .translation-quotation { padding: 20px; }
+  .latin-quotation p, .translation-quotation p { font-size: 18px; }
+}
+
+.article-figure { margin: 34px 0 42px; }
+.article-figure img { display: block; width: 100%; height: auto; }
+.article-figure figcaption { margin-top: 10px; color: var(--muted); font-family: var(--font-sans), sans-serif; font-size: 11px; line-height: 1.5; }
+.blog-image-link { display: block; margin-bottom: 22px; max-width: 520px; }
+.blog-image { display: block; width: 100%; height: auto; }

@@ -61,7 +61,15 @@ export default function Home() {
         <p className="eyebrow">MEER DAN ONDERWIJS</p>
         <h2>Ideeën, teksten en beschouwingen.</h2>
         <p>Essays en beschouwingen over klassieke literatuur, taal, geschiedenis en de intellectuele tradities die onze wereld blijven vormen.</p>
-        <a href="#contact">Neem contact op voor nieuwe publicaties →</a>
+        <a href="/blog">Bekijk het blogarchief →</a>
+      </section>
+      <section className="newsletter-band">
+        <div>
+          <p className="eyebrow">POMPEII · LATIJN VANAF HET BEGIN</p>
+          <h2>Lees mee met de klassieken.</h2>
+          <p>In de Engelstalige nieuwsbrief Silenus Alcibiades, PhD onderzoeken we korte Latijnse teksten, van inscripties op muren tot Romeinse dichters.</p>
+        </div>
+        <a className="button" href="https://silenusalcibiadesphd.substack.com" target="_blank" rel="noreferrer">Abonneer je op de nieuwsbrief ↗</a>
       </section>
       <section id="over" className="content">
         <p className="eyebrow">OVER PELEGRINUS</p>
@@ -72,7 +80,7 @@ export default function Home() {
       </section>
       <footer id="contact">
         <span>PELEGRINUS</span><span>Leer Latijn. Verrijk je vorming.</span>
-        <a href="mailto:silenusalcibiades@gmail.com">Contact</a><a href="/privacy">Privacy</a><a href="/voorwaarden">Cursusvoorwaarden</a><a href="/herroeping">Herroepingsrecht</a>
+        <a href="/blog">Blog</a><a href="https://silenusalcibiadesphd.substack.com" target="_blank" rel="noreferrer">Nieuwsbrief</a><a href="mailto:silenusalcibiades@gmail.com">Contact</a><a href="/privacy">Privacy</a><a href="/voorwaarden">Cursusvoorwaarden</a><a href="/herroeping">Herroepingsrecht</a>
       </footer>
     </main>
   );
