@@ -1,4 +1,4 @@
-import SiteNavigation from "../../../components/SiteNavigation";
+import SiteNavigation from "../../components/SiteNavigation";
 
 export const metadata = {
   title: "I Don't Love You. I Couldn't Tell You Why. | Pelegrinus",
