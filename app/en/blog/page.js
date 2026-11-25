@@ -18,7 +18,7 @@ export default function EnglishBlogIndex() {
       <section className="blog-list">
         <article className="blog-card">
           <p className="eyebrow">POMPEII · LATIN FROM SCRATCH · ENGLISH</p>
-          <a className="blog-image-link" href="/blog/not-loving-you"><img className="blog-image" src="/images/martial-sabidius-pompeii.webp" alt="Pompeii comic illustration of two Romans beside a wall inscription" /></a>
+          <a className="blog-image-link" href="/blog/not-loving-you"><img className="blog-image" src="/images/martial-sabidius-pompeii.jpg" alt="Pompeii comic illustration of two Romans beside a wall inscription" /></a>
           <h2><a href="/blog/not-loving-you">I Don't Love You. I Couldn't Tell You Why.</a></h2>
           <p className="blog-meta">Martial, <em>Epigrams</em> 1.32 · Two lines of Latin, explained from scratch</p>
           <p>A Roman poet's wonderfully economical expression of dislike — and a chance to learn how Latin verbs, pronouns and infinitives work.</p>
