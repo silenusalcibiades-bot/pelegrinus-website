@@ -470,3 +470,9 @@ footer {
   .latin-quotation, .translation-quotation { padding: 20px; }
   .latin-quotation p, .translation-quotation p { font-size: 18px; }
 }
+
+.article-figure { margin: 34px 0 42px; }
+.article-figure img { display: block; width: 100%; height: auto; }
+.article-figure figcaption { margin-top: 10px; color: var(--muted); font-family: var(--font-sans), sans-serif; font-size: 11px; line-height: 1.5; }
+.blog-image-link { display: block; margin-bottom: 22px; max-width: 520px; }
+.blog-image { display: block; width: 100%; height: auto; }
