@@ -23,7 +23,7 @@ export default function MartialArticleDutch() {
           <p className="eyebrow">POMPEII · LATIJN VANAF HET BEGIN</p>
           <h1>Ik hou niet van je. Waarom? Dat kan ik niet zeggen.</h1>
           <p className="article-deck">Twee regels Latijn, vanaf het begin uitgelegd</p>
-          <p className="blog-meta">Door Dr David Kromhout · Martialis, <em>Epigrammen</em> 1.32</p>
+          <p className="blog-meta">Martialis, <em>Epigrammen</em> 1.32</p>
         </header>
         <figure className="article-figure">
           <img src="/images/martial-sabidius-pompeii.jpg" alt="Humoristische scène in Pompeii: een Romein wendt zich af terwijl een ander naar een Latijnse tekst op een muur wijst." />
