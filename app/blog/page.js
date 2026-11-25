@@ -17,8 +17,15 @@ export default function BlogIndex() {
       </header>
       <section className="blog-list">
         <article className="blog-card">
+          <p className="eyebrow">POMPEII · LATIJN VANAF HET BEGIN · NEDERLANDS</p>
+          <a className="blog-image-link" href="/blog/ik-hou-niet-van-je"><img className="blog-image" src="/images/martial-sabidius-pompeii.webp" alt="Humoristische Pompeii-illustratie van twee Romeinen bij een muuropschrift" /></a>
+          <h2><a href="/blog/ik-hou-niet-van-je">Ik hou niet van je. Waarom? Dat kan ik niet zeggen.</a></h2>
+          <p className="blog-meta">Martialis, <em>Epigrammen</em> 1.32 · Twee regels Latijn, vanaf het begin uitgelegd</p>
+          <p>Een Romeinse dichter verwoordt zijn afkeer op meesterlijk beknopte wijze — en geeft ons meteen de gelegenheid om Latijnse werkwoorden, voornaamwoorden en infinitieven te leren kennen.</p>
+          <a className="text-link" href="/blog/ik-hou-niet-van-je">Lees het artikel in het Nederlands →</a>
+        </article>
+        <article className="blog-card">
           <p className="eyebrow">POMPEII · LATIN FROM SCRATCH · ENGLISH</p>
-          <a className="blog-image-link" href="/blog/not-loving-you"><img className="blog-image" src="/images/martial-sabidius-pompeii.webp" alt="Pompeii comic illustration of two Romans beside a wall inscription" /></a>
           <h2><a href="/blog/not-loving-you">I Don't Love You. I Couldn't Tell You Why.</a></h2>
           <p className="blog-meta">Martial, <em>Epigrams</em> 1.32 · Two lines of Latin, explained from scratch</p>
           <p>A Roman poet's wonderfully economical expression of dislike — and a chance to learn how Latin verbs, pronouns and infinitives work.</p>
