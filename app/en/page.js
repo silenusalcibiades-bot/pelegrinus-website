@@ -56,7 +56,15 @@ export default function EnglishHome() {
       <section id="essays" className="content essays">
         <p className="eyebrow">BEYOND THE CLASSROOM</p><h2>Ideas, texts and reflections.</h2>
         <p>Essays and reflections on classical literature, language, history and the intellectual traditions that continue to shape our world.</p>
-        <a href="#contact">Get in touch to hear about new writing →</a>
+        <a href="/en/blog">Explore the blog archive →</a>
+      </section>
+      <section className="newsletter-band">
+        <div>
+          <p className="eyebrow">POMPEII · LATIN FROM SCRATCH</p>
+          <h2>Read along with the classics.</h2>
+          <p>The English-language Silenus Alcibiades, PhD newsletter explores short Latin texts, from inscriptions on ancient walls to Roman poets.</p>
+        </div>
+        <a className="button" href="https://silenusalcibiadesphd.substack.com" target="_blank" rel="noreferrer">Subscribe to the newsletter ↗</a>
       </section>
       <section id="about" className="content">
         <p className="eyebrow">ABOUT PELEGRINUS</p><h2>A classical education is never out of reach.</h2>
@@ -66,7 +74,7 @@ export default function EnglishHome() {
       </section>
       <footer id="contact">
         <span>PELEGRINUS</span><span>Learn Latin. Complete your education.</span>
-        <a href="mailto:silenusalcibiades@gmail.com">Contact</a><a href="/en/privacy">Privacy</a><a href="/en/terms">Course terms</a><a href="/en/withdrawal">Right of withdrawal</a>
+        <a href="/en/blog">Blog</a><a href="https://silenusalcibiadesphd.substack.com" target="_blank" rel="noreferrer">Newsletter</a><a href="mailto:silenusalcibiades@gmail.com">Contact</a><a href="/en/privacy">Privacy</a><a href="/en/terms">Course terms</a><a href="/en/withdrawal">Right of withdrawal</a>
       </footer>
     </main>
   );
