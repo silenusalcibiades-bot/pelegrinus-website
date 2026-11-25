@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Martial's epigram in Pompeii</title>
+  <desc id="desc">A warm, classical illustration of two Roman men beside a Pompeian wall bearing the words Non amo te.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9d8b9"/><stop offset="1" stop-color="#cbb38e"/></linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9e1df"/><stop offset="1" stop-color="#a9b9b6"/></linearGradient>
+    <linearGradient id="toga" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6f0df"/><stop offset="1" stop-color="#c9c2b2"/></linearGradient>
+  </defs>
+  <rect width="1200" height="650" fill="#e9e2d4"/>
+  <rect x="0" y="0" width="1200" height="430" fill="url(#sky)"/>
+  <path d="M0 430 Q240 390 470 430 T920 420 T1200 430 V650 H0Z" fill="#b9a17d"/>
+  <path d="M0 190 L1200 160 V535 L0 560Z" fill="url(#wall)" stroke="#9e8666" stroke-width="8"/>
+  <path d="M0 250 L1200 220 M0 365 L1200 335 M0 475 L1200 445" stroke="#b79e7c" stroke-width="5" opacity=".65"/>
+  <path d="M210 160 V540 M520 152 V530 M830 145 V520 M1080 140 V510" stroke="#b79e7c" stroke-width="4" opacity=".55"/>
+  <g opacity=".25" fill="#92795a"><path d="M80 285h90v7H80zM680 400h130v6H680zM950 270h90v6h-90zM360 490h110v5H360z"/></g>
+  <g transform="translate(600 290)">
+    <rect x="-250" y="-115" width="500" height="180" rx="8" fill="#f0e3ca" opacity=".72" stroke="#a58b68" stroke-width="3"/>
+    <text x="0" y="-35" text-anchor="middle" font-family="Georgia,serif" font-size="47" letter-spacing="5" fill="#594632">NON AMO TE</text>
+    <text x="0" y="20" text-anchor="middle" font-family="Georgia,serif" font-size="24" letter-spacing="3" fill="#80694d">SABIDI · MARTIALIS</text>
+  </g>
+  <g transform="translate(245 360)">
+    <ellipse cx="0" cy="210" rx="110" ry="18" fill="#79654b" opacity=".22"/>
+    <path d="M-65 65 Q-110 130 -92 220 L85 220 Q95 130 55 65Z" fill="#8d5543"/>
+    <path d="M-45 35 Q-70 70 -65 115 L55 115 Q65 70 30 35Z" fill="url(#toga)" stroke="#9c8d75" stroke-width="4"/>
+    <path d="M-32 60 Q5 92 47 54 L65 110 Q10 145 -48 112Z" fill="#d9d0bc"/>
+    <circle cx="-4" cy="0" r="43" fill="#bd8e6a"/>
+    <path d="M-45 -9 Q-42 -65 8 -57 Q43 -55 42 -15 Q15 -33 -5 -25 Q-24 -16 -45 -9Z" fill="#514337"/>
+    <path d="M-2 0 Q25 10 36 2" fill="none" stroke="#78523f" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-20 20 Q-5 28 12 20" fill="none" stroke="#8a5144" stroke-width="4" stroke-linecap="round"/>
+    <path d="M45 95 Q100 65 125 32" fill="none" stroke="#bd8e6a" stroke-width="18" stroke-linecap="round"/>
+    <path d="M110 28 L139 10" stroke="#bd8e6a" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(950 360)">
+    <ellipse cx="0" cy="210" rx="115" ry="18" fill="#79654b" opacity=".22"/>
+    <path d="M-70 65 Q-115 130 -95 220 L90 220 Q105 125 58 65Z" fill="#425c6b"/>
+    <path d="M-48 35 Q-70 75 -64 115 L60 115 Q66 72 35 35Z" fill="url(#toga)" stroke="#9c8d75" stroke-width="4"/>
+    <path d="M-38 56 Q0 105 50 58 L66 112 Q5 145 -52 112Z" fill="#d7d0c0"/>
+    <circle cx="0" cy="0" r="43" fill="#c89470"/>
+    <path d="M-43 -12 Q-42 -65 5 -57 Q45 -55 43 -12 Q15 -33 -5 -26 Q-25 -15 -43 -12Z" fill="#57483a"/>
+    <path d="M-4 0 Q-26 12 -37 2" fill="none" stroke="#78523f" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-13 22 Q4 29 19 20" fill="none" stroke="#8a5144" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-50 95 Q-100 80 -125 42" fill="none" stroke="#c89470" stroke-width="18" stroke-linecap="round"/>
+  </g>
+  <path d="M0 570 Q300 550 600 575 T1200 565" fill="none" stroke="#8b7557" stroke-width="4" opacity=".45"/>
+  <text x="600" y="620" text-anchor="middle" font-family="Georgia,serif" font-size="19" letter-spacing="4" fill="#685943">POMPEII · LATIN FROM SCRATCH</text>
+</svg>
