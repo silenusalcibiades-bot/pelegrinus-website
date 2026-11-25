@@ -3,7 +3,7 @@ export default function SiteNavigation({ language = "nl", page = "home" }) {
   const paths = {
     home: { nl: "/", en: "/en" },
     blog: { nl: "/blog", en: "/en/blog" },
-    article: { nl: "/blog", en: "/en/blog" },
+    article: { nl: "/blog/ik-hou-niet-van-je", en: "/blog/not-loving-you" },
     privacy: { nl: "/privacy", en: "/en/privacy" },
     terms: { nl: "/voorwaarden", en: "/en/terms" },
     withdrawal: { nl: "/herroeping", en: "/en/withdrawal" },
