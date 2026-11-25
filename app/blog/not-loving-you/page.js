@@ -20,7 +20,7 @@ export default function MartialArticle() {
           <p className="eyebrow">POMPEII · LATIN FROM SCRATCH</p>
           <h1>I Don't Love You. I Couldn't Tell You Why.</h1>
           <p className="article-deck">Two lines of Latin, explained from scratch</p>
-          <p className="blog-meta">By Dr David Kromhout · Martial, <em>Epigrams</em> 1.32</p>
+          <p className="blog-meta">Martial, <em>Epigrams</em> 1.32</p>
         </header>
         <figure className="article-figure">
           <img src="/images/martial-sabidius-pompeii.jpg" alt="Comic-style scene in Pompeii: one Roman man dismissively turns away while another gestures at a wall bearing Martial's Latin epigram." />
