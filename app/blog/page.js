@@ -18,7 +18,7 @@ export default function BlogIndex() {
       <section className="blog-list">
         <article className="blog-card">
           <p className="eyebrow">POMPEII · LATIJN VANAF HET BEGIN · NEDERLANDS</p>
-          <a className="blog-image-link" href="/blog/ik-hou-niet-van-je"><img className="blog-image" src="/images/martial-sabidius-pompeii.svg" alt="Humoristische Pompeii-illustratie van twee Romeinen bij een muuropschrift" /></a>
+          <a className="blog-image-link" href="/blog/ik-hou-niet-van-je"><img className="blog-image" src="/images/martial-sabidius-pompeii.webp" alt="Humoristische Pompeii-illustratie van twee Romeinen bij een muuropschrift" /></a>
           <h2><a href="/blog/ik-hou-niet-van-je">Ik hou niet van je. Waarom? Dat kan ik niet zeggen.</a></h2>
           <p className="blog-meta">Martialis, <em>Epigrammen</em> 1.32 · Twee regels Latijn, vanaf het begin uitgelegd</p>
           <p>Een Romeinse dichter verwoordt zijn afkeer op meesterlijk beknopte wijze — en geeft ons meteen de gelegenheid om Latijnse werkwoorden, voornaamwoorden en infinitieven te leren kennen.</p>
